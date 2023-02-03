@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P-Typing</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <main>
+        <!-- The video -->
+        <video autoplay muted loop poster="zyI.gif" id="myVideo">
+        <source src="zyI.gif.m4" type="video/mp4" >
+       </video>
+  
+       <!-- Optional: some overlay text to describe the video -->
+        <div class="content">
+       <h1>Heading</h1>
+       <p>Lorem ipsum...</p>
+        <!-- Use a button to pause/play the video with JavaScript -->
+         <button id="myBtn" onclick="myFunction()">Pause</button>
+         </div>
+        <div class="home" >
+            <h1>WELCOME TO PRACTISE TYPING</h1>
+            <p>Get those fingers flying across the keyboard with P-Typing so you can improve 
+                your typing skills and boost your typing speed, learn
+                how to touch type with P-Typing.com typing lessons. (Touch typing - Able to type with all 10 fingers)</p>
+            <div class="button" ><button>Continue</button></div>
+        </div>
+    </main>
+
+    <script>
+        // Get the video
+        var video = document.getElementById("myVideo");
+        
+        // Get the button
+        var btn = document.getElementById("myBtn");
+        
+        // Pause and play the video, and change the button text
+        function myFunction() {
+          if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+          } else {
+            video.pause();
+            btn.innerHTML = "Play";
+          }
+        }
+        </script>
+</body>
+</html>
