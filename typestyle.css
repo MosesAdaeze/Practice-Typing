@@ -17,26 +17,32 @@ main {
     border: solid 1px ;
 }
 
-.container-content {
+/* .container-content {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .container-content h1{
-    padding-top: 15px;
     font-size: large;
-    /* text-align: center; */
+    text-align: center;
     font-family: 'Bungee', cursive;
 }
 
 .button {
-    padding-left: 100px;
+    padding-right: 100px;
 }
 
+.logo {
+    size: 20px;
+}
+
+
 button {
-    width: 10rem;
-    height: 5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 20px;
+    border: none;
 }
 
 section {
