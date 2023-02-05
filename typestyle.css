@@ -75,7 +75,7 @@ article {
 }
 
 
-button {
+.button button {
     width: 3rem;
     height: 3rem;
     border-radius: 20px;
@@ -89,9 +89,50 @@ button:hover {
 
 /* Levl .container */
 
+.level-container h1 {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+}
+
 .level-container {
     width: 80%;
-    height: 35%;
-    background-color: plum;
+    height: 39%;
+    background-color: rgb(197, 169, 224);
     position: fixed;
+    border-radius: 15px;
+}
+
+.level-button {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.level-button button{
+    width: 70%;
+    height: 50px;
+    font-family: 'Bungee', cursive;
+    font-size: larger;
+    box-shadow: 10px 10px 20px rgb(0,0,0,0.6);
+    border: none;
+    border-radius: 30px;
+}
+
+.level-button button:hover {
+    background-color: rgb(169, 124, 211);
+}
+
+.exit-button {
+    display: flex;
+    justify-content: center;
+}
+
+.exit-button button{
+    width: 20%;
+    height: 30px;
+    font-family: 'Bungee', cursive;
+    font-size: larger;
+    box-shadow: 10px 10px 20px rgb(0,0,0,0.6);
+    border: none;
+    border-radius: 25px;
 }
