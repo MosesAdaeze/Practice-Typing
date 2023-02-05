@@ -83,13 +83,20 @@ article {
     cursor: pointer;
 }
 
-button:hover {
+.button button:hover {
     background-color: rgb(197, 169, 224);
 }
 
+
 /* Levl .container */
 
-.level-container h1 {
+.level-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.level-content h1 {
     text-align: center;
     font-family: 'Bungee', cursive;
 }
@@ -100,6 +107,7 @@ button:hover {
     background-color: rgb(197, 169, 224);
     position: fixed;
     border-radius: 15px;
+    display: none;
 }
 
 .level-button {
@@ -109,13 +117,14 @@ button:hover {
 }
 
 .level-button button{
-    width: 50%;
+    width: 60%;
     height: 50px;
     font-family: 'Bungee', cursive;
     font-size: larger;
     box-shadow: 10px 10px 20px rgb(0,0,0,0.6);
     border: none;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .level-button button:hover {
@@ -128,11 +137,28 @@ button:hover {
 }
 
 .exit-button button{
-    width: 20%;
+    width: 55px;
     height: 30px;
     font-family: 'Bungee', cursive;
     font-size: larger;
     box-shadow: 10px 10px 20px rgb(0,0,0,0.6);
     border: none;
-    border-radius: 25px;
+    border-radius: 25px; 
+    cursor: pointer;
 }
+
+.level-button button:hover {
+    background-color: rgb(169, 124, 211);
+}
+
+.exit-button button:hover {
+    background-color: rgb(169, 124, 211);
+}
+
+@media (min-width: 1000px) {
+    .level-button button {
+        width: 40%;
+    }
+}
+
+/* end level container */
