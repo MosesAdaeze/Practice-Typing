@@ -6,7 +6,7 @@
 
 main {
     display: flex;
-    padding-top: 300px;
+    padding-top: 270px;
     justify-content: center;
 }
 
@@ -51,7 +51,7 @@ article {
     padding-top: 20px;
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .text-box {
@@ -59,13 +59,13 @@ article {
     height: 100px;
     text-align: center;
     padding-top: 30px;
-    font-size: x-large;
+    font-size: 25px;
     display: flex;
     font-family: 'Bungee', cursive;
     justify-content: center;
     border-radius: 20px;
     background-color: rgb(197, 169, 224);
-    box-shadow: 10px 10px 20px rgb(0,0,0,0.9);
+    box-shadow: 10px 10px 20px rgb(0,0,0,0.6);
     border: none;
 }
 
@@ -81,4 +81,17 @@ button {
     border-radius: 20px;
     border: none;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(197, 169, 224);
+}
+
+/* Levl .container */
+
+.level-container {
+    width: 80%;
+    height: 35%;
+    background-color: plum;
+    position: fixed;
 }
