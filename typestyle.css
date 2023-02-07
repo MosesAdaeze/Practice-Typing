@@ -131,6 +131,14 @@ article {
     background-color: rgb(169, 124, 211);
 }
 
+#botton button{
+    color: rgb(221, 217, 217);
+}
+
+#botton button:hover{
+    background-color: rgb(197, 169, 224);
+}
+
 .exit-button {
     display: flex;
     justify-content: center;
