@@ -169,3 +169,50 @@ article {
 }
 
 /* end level container */
+
+/* score board */
+
+.end-game-container {
+    width: 65%;
+    height: 39%;
+    background-color: rgb(250, 243, 243);
+    border: solid red;
+    position: fixed;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(0,0,0,0.9);
+    border: none;
+    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.end-game-container p {
+    padding-bottom: 20px;
+}
+
+.end-game-container button {
+    width: 8em;
+    height: 2em;
+    font-family: 'Bungee', cursive;
+    font-size: larger;
+    box-shadow: 10px 10px 20px rgb(0,0,0,0.6);
+    border: none;
+    border-radius: 25px; 
+    cursor: pointer;
+
+}
+
+.end-game-container {
+    display: none;
+}
+
+.content {
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.score-container{
+    position: fixed;
+}
