@@ -3,6 +3,7 @@ Increase your skill in typing.
 Built using HTML, CSS & JAVASCRIPT </br>
 
 P-Typing so you can improve your typing skills and boost your typing speed. </br>
+A timer is set for each word.
 
 <h2>Demo Link:</h2> https://practice-typing-fast.netlify.app/
 
